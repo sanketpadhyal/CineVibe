@@ -1,2 +1,36 @@
-# CineVibe
-🎬 CineVibe – Your Personal Gateway to Movies, Magic &amp; More 🍿   A sleek, animated movie info website.  Find trending movies, get AI-based recommendations, and check streaming platforms — all in one vibe.   ✨ Built with ❤ by Sanket ~ VortexByte
+# 🎬 CineVibe
+
+**CineVibe** is a stylish, animated movie info website made with pure HTML, CSS, and JavaScript.  
+It lets you explore trending movies, search titles, get AI-powered recommendations, and check where to stream — all in one beautiful interface.
+
+> ✨ Made with ❤ by **Sanket (VortexByte)**  
+> 🔗 Live Demo: https://celadon-heliotrope-088965.netlify.app/
+
+---
+
+## 🚀 Features
+
+- 🔍 Movie search powered by TMDb API  
+- 🔥 Trending movies button  
+- 🤖 AI Movie Recommendations (genre picker)  
+- 🎞️ Modal with poster, overview, release date, rating  
+- 📺 Streaming provider icons (Netflix, Prime, etc.)  
+- 📱 Fully responsive (mobile & desktop)  
+- 🌈 Rainbow hero text, glowing UI, smooth transitions  
+- 🎬 Netflix-style animated landing screen
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML**
+- **CSS** (custom transitions, animations, responsive)
+- **JavaScript**
+- **TMDb API**
+
+
+## 💻 Developed By
+
+**Sanket Padhyal**  
+> 🔗 Instagram / GitHub / Portfolio — Coming Soon  
+> ✨ VortexByte Productions
