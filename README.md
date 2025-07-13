@@ -27,6 +27,8 @@ It lets you explore trending movies, search titles, get AI-powered recommendatio
 - **CSS** (custom transitions, animations, responsive)
 - **JavaScript**
 - **TMDb API**
+- **Live By Netlify**
+ 
 
 
 ## 💻 Developed By
@@ -34,3 +36,4 @@ It lets you explore trending movies, search titles, get AI-powered recommendatio
 **Sanket Padhyal**  
 > 🔗 Instagram / GitHub / Portfolio — Coming Soon  
 > ✨ VortexByte Productions
+                                                                                                                                  
