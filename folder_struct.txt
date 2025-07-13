@@ -1,0 +1,7 @@
+CineVibe/
+├── index.html             ← Main app page (after landing)
+├── style.css              ← All styling (landing + app)
+├── script.js              ← All JS logic (search, API, AI, etc.)
+├── assets/
+├── README.md              ← GitHub description
+

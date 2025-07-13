@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <title>CineVibe 🎬</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Landing Page Start -->
+  <div id="landing" class="landing-body">
+    <div class="landing-content">
+      <h1 class="landing-logo"><span class="cine">Cine</span><span class="vibe">Vibe</span> 🎬</h1>
+      <p class="tagline">Your Personal Gateway to Movies, Magic & More 🍿</p>
+      <button class="enter-btn" onclick="startLoading()">Enter CineVibe</button>
+      <div class="loader" id="loader"></div>
+    </div>
+
+    <footer class="landing-footer">
+      <p>✨ Built with ❤ by VortexByte ~ @sanketpadhyal</p>
+      <p>🌟 CineVibe • Working Version • More updates soon!</p>
+    </footer>
+  </div>
+  <!-- Landing Page End -->
+
+  <!-- Main CineVibe Page (Initially Hidden) -->
+  <div id="mainApp" style="display: none;">
+    <header>
+      <h1 class="logo">
+        <span class="cine">Cine</span><span class="vibe">Vibe</span> 🎬
+      </h1>
+      <nav>
+        <a href="#" id="homeLink">🏠 Home</a>
+        <button id="trendingBtn" class="nav-btn">🔥 Trending</button>
+        <a href="#search" id="searchLink">🔍 Search</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero fade-in" id="heroSection">
+        <h2 class="rainbow-text">🎬 <span class="rainbow-glow">GET LATEST MOVIE INFO INSTANTLY</span></h2>
+        <p id="heroDesc">
+          <em>📽️ Explore trending, top‑rated, and upcoming movies — all in one stylish place! 🍿</em><br />
+          <em>🎞️ Discover latest releases, cult classics, and hidden gems! 💎</em><br />
+          <em>📡 Real‑time movie data coming soon — stay tuned! 🛸</em>
+        </p>
+
+        <div class="search-container" id="search">
+          <input type="text" placeholder="🔍 Search movies..." id="searchInput" />
+          <button id="searchBtn" class="hidden">Go! 🚀</button>
+          <p class="tip">ℹ️ Tip: Enter the correct spelling for best results!</p>
+          <button id="aiBtn" class="ai-recommend">🎯 AI Movie Recommendation</button>
+
+          <div id="genrePicker" class="genre-picker hidden">
+            <p>🤖 Choose a Genre:</p>
+            <div class="genre-list">
+              <button data-genre="28">🎬 Action</button>
+              <button data-genre="878">🚀 Sci‑Fi</button>
+              <button data-genre="35">😂 Comedy</button>
+              <button data-genre="10749">💖 Romance</button>
+              <button data-genre="27">😱 Horror</button>
+              <button data-genre="9648">🕵️ Mystery</button>
+              <button data-genre="14">🧙 Fantasy</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="movieResults" class="movie-grid fade-in"></section>
+    </main>
+
+    <!-- Movie Modal -->
+    <div id="movieModal" class="modal hidden">
+      <div class="modal-content"><span class="close-btn">❌</span>
+        <img id="modalPoster" src="" alt="Movie Poster">
+        <h2 id="modalTitle"></h2>
+        <p id="modalRatingDate"></p>
+        <p id="modalOverview"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    function startLoading() {
+      const loader = document.getElementById('loader');
+      loader.style.display = 'block';
+
+      setTimeout(() => {
+        // Hide Landing
+        document.getElementById('landing').style.display = 'none';
+        // Show Main App
+        document.getElementById('mainApp').style.display = 'block';
+        // Scroll to top
+        window.scrollTo(0, 0);
+      }, 2000);
+    }
+  </script>
+</body>
+</html>
