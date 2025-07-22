@@ -4,7 +4,7 @@
 It lets you explore trending movies, search titles, get AI-powered recommendations, and check where to stream — all in one beautiful interface.
 
 > ✨ Made with ❤ by **Sanket (VortexByte)**  
-> 🔗 Live Demo: https://celadon-heliotrope-088965.netlify.app/
+> 🔗 Live Demo: https://poetic-toffee-fe02a9.netlify.app
 
 ---
 
