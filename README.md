@@ -3,7 +3,7 @@
 **CineVibe** is a stylish, animated movie info website made with pure HTML, CSS, and JavaScript.  
 It lets you explore trending movies, search titles, get AI-powered recommendations, and check where to stream — all in one beautiful interface.
 
-> ✨ Made with ❤ by **Sanket (VortexByte)**  
+> ✨ Made with ❤ by **Sanket**  
 > 🔗 Live Demo: https://poetic-toffee-fe02a9.netlify.app
 
 ---
@@ -35,5 +35,5 @@ It lets you explore trending movies, search titles, get AI-powered recommendatio
 
 **Sanket Padhyal**  
 > 🔗 Instagram / GitHub / Portfolio — Coming Soon  
-> ✨ VortexByte Productions
+> ✨Sanket Productions
                                                                                                                                   
