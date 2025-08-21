@@ -10,7 +10,7 @@ It’s lightweight, mobile-first, and brings **trending movies, AI-powered recom
 ![Hosting](https://img.shields.io/badge/Hosting-Netlify-orange?style=for-the-badge)  
 ![Made By](https://img.shields.io/badge/Made%20By-Sanket%20Padhyal-red?style=for-the-badge)  
 
-🌐 **Live Demo:** [CineVibe on Netlify](https://storied-manatee-3beb3c.netlify.app)  
+🌐 **Live Demo:** [CineVibe on Netlify](https://cinevibbee.netlify.app/)  
 
 ---
 
