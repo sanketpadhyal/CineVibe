@@ -43,6 +43,11 @@ It’s lightweight, mobile-first, and brings **trending movies, AI-powered recom
 
 ---
 
+### 📅 Project Information
+Created: Jul 14, 2025
+
+---
+
 ## 📜 License  
 
 © 2025 CineVibe. All rights reserved.  
